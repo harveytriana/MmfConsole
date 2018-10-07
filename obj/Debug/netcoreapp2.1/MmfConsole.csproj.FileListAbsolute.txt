@@ -1,0 +1,14 @@
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MmfConsole.deps.json
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MmfConsole.runtimeconfig.json
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MmfConsole.runtimeconfig.dev.json
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MmfConsole.dll
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MmfConsole.pdb
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.csprojAssemblyReference.cache
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.AssemblyInfoInputs.cache
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.AssemblyInfo.cs
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.dll
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.pdb
+C:\Users\Administrador\Source\Repos\MmfConsole\obj\Debug\netcoreapp2.1\MmfConsole.csproj.CopyComplete
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MML.Shared.dll
+C:\Users\Administrador\Source\Repos\MmfConsole\bin\Debug\netcoreapp2.1\MML.Shared.pdb

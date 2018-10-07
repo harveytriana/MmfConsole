@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MML.Shared">
+      <HintPath>..\..\..\..\..\_TempCode\LabCore21\_release\netstandard2.0\MML.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
