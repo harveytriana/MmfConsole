@@ -14,9 +14,6 @@ namespace MmfConsole
     {
         static void Main(string[] args)
         {
-            new Lab.IpcTest().RunFromExternal();
-            return;
-
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("C# Send Data Between Processes (Memory Mapped File)\n");
             Console.ForegroundColor = ConsoleColor.Gray;
