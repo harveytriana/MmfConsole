@@ -14,6 +14,9 @@ namespace MmfConsole
     {
         static void Main(string[] args)
         {
+            //new Lab.IpcTest().RunFromExternal();
+            //return;
+
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("C# Send Data Between Processes (Memory Mapped File)\n");
             Console.ForegroundColor = ConsoleColor.Gray;
@@ -46,12 +49,12 @@ namespace MmfConsole
             // this is what we want to write to the memory mapped file
             var m = new Message {
                 Title = "test",
-                Content = new List<Parameter>(),
+                Parameters = new List<Parameter>(),
                 Time = DateTime.Now
             };
-            m.Content.Add(new Parameter { Mnemonic = "ROP", Value = 123.456F });
-            m.Content.Add(new Parameter { Mnemonic = "WOB", Value = 2.321F });
-            m.Content.Add(new Parameter { Mnemonic = "RPM", Value = 187.321F });
+            m.Parameters.Add(new Parameter { Mnemonic = "ROP", Value = 123.456F });
+            m.Parameters.Add(new Parameter { Mnemonic = "WOB", Value = 2.321F });
+            m.Parameters.Add(new Parameter { Mnemonic = "RPM", Value = 187.321F });
 
             // serialize the variable 'message1' and write it to the memory mapped file
             var formatter = new BinaryFormatter();
@@ -107,12 +110,12 @@ namespace MmfConsole
     {
         public string Title { get; set; }
         public DateTime Time { get; set; }
-        public List<Parameter> Content { get; set; }
+        public List<Parameter> Parameters { get; set; }
 
         public override string ToString()
         {
             var s = $"{Time.ToString("HH:mm:ss")}: {Title}";
-            Content.ForEach(x => s += $"\n{x.Mnemonic}: {x.Value}");
+            Parameters.ForEach(x => s += $"\n{x.Mnemonic}: {x.Value}");
             return s;
         }
     }

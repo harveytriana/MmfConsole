@@ -20,7 +20,7 @@ namespace Lab
         public void Run()
         {
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("C# Send Content Between Processes (Memory Mapped File)\n");
+            Console.WriteLine("C# Send Parameters Between Processes (Memory Mapped File)\n");
             Console.ForegroundColor = ConsoleColor.Gray;
 
             Console.WriteLine("Write something...");
@@ -55,11 +55,11 @@ namespace Lab
                 ID = "SAMP-CO-F-0001",
                 Time = DateTime.Now,
                 Depth = 1234.12F,
-                Content = new List<Parameter>()
+                Parameters = new List<Parameter>()
             };
-            r.Content.Add(new Parameter { ID = "ROP", Value = 122.23F });
-            r.Content.Add(new Parameter { ID = "WOB", Value = 2.423F });
-            r.Content.Add(new Parameter { ID = "RPM", Value = 120.03F });
+            r.Parameters.Add(new Parameter { Mnemonic = "ROP", Value = 122.23F });
+            r.Parameters.Add(new Parameter { Mnemonic = "WOB", Value = 2.423F });
+            r.Parameters.Add(new Parameter { Mnemonic = "RPM", Value = 120.03F });
             return r;
         }
 
